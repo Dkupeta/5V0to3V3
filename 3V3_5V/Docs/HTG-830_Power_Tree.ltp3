@@ -1,0 +1,696 @@
+<Vers> 3.0.1
+<Tabs> 1, #FFECDBCA, New Tab 1
+<Summ> 985, 710, 20, #FF000000
+<BPrt> Converter, 2, 175, 85, LTM4620
+	Color   : #FFFFDAB9
+	Width   : 120
+	Height  : 70
+	Topology: 1
+	ConvType: 2
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 0.95
+	IoutMax : 12.5
+	NomEff  : 85
+<Term> Output, 2
+	Vout    : 0.95
+	IoutMax : 85
+	NomEff  : 85
+<BPrt> Converter, 3, 175, 195, LTM4620
+	Color   : #FFFFDAB9
+	Width   : 120
+	Height  : 70
+	Topology: 1
+	ConvType: 2
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 0.95
+	NomEff  : 85
+<Term> Output, 2
+	Vout    : 0.95
+	NomEff  : 85
+<BPrt> Load, 4, 555, 75, 0.95V VCCINT
+	Color   : #FF008000
+	Width   : 150
+	Height  : 60
+<Term> Input, 1
+	Ipeak   : 40
+<BPrt> Converter, 5, 175, 300, LTM4644
+	Color   : #FFFFDAB9
+	Width   : 120
+	Height  : 100
+	Topology: 1
+	ConvType: 2
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 0.95
+	VoutMax : 5.5
+	NomEff  : 85
+<Term> Output, 2
+	Vout    : 1.8
+	VoutMax : 5.5
+	NomEff  : 85
+<Term> Output, 3
+	Vout    : 1.8
+	VoutMax : 5.5
+	NomEff  : 85
+<Term> Output, 4
+	Vout    : 2.5
+	VoutMax : 5.5
+	NomEff  : 85
+<BPrt> Load, 6, 555, 215, 0.95V BRAM
+	Color   : #FFFFB6C1
+	Width   : 150
+	Height  : 60
+<Term> Input, 1
+	Inom    : 2
+	Ipeak   : 3
+<BPrt> Load, 7, 555, 310, 1.8V VCCIO
+	Color   : #FFFFB6C1
+	Width   : 150
+	Height  : 60
+<Term> Input, 1
+	Inom    : 4
+	Ipeak   : 6.4
+<BPrt> Load, 8, 555, 390, 2.5V VCCIO
+	Color   : #FFFFB6C1
+	Width   : 150
+	Height  : 60
+<Term> Input, 1
+	Inom    : 1
+	Ipeak   : 2
+<BPrt> Converter, 9, 840, 260, LTM4644
+	Color   : #FFFFDAB9
+	Width   : 120
+	Height  : 110
+	Topology: 1
+	ConvType: 2
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 1.2
+	VoutMax : 5.5
+	IoutMax : 4
+	NomEff  : 83
+<Term> Output, 2
+	Vout    : 1.2
+	VoutMax : 5.5
+	IoutMax : 4
+	NomEff  : 83
+<Term> Output, 3
+	Vout    : 1.2
+	VoutMax : 5.5
+	IoutMax : 4
+	NomEff  : 83
+<Term> Output, 4
+	Vout    : 1.2
+	VoutMax : 5.5
+	NomEff  : 83
+<BPrt> Load, 11, 1085, 115, 1.0V GTH_AVCC
+	Color   : #FFFFB6C1
+	Width   : 130
+	Height  : 60
+<Term> Input, 1
+	Ipeak   : 12
+<BPrt> Load, 12, 1085, 285, 1.2V GTH_AVTT
+	Color   : #FFFFB6C1
+	Width   : 130
+	Height  : 60
+<Term> Input, 1
+	Ipeak   : 12
+<BPrt> LDO, 14, 370, 480, LDO
+	Color   : #FFBDB76B
+	Width   : 120
+	Height  : 60
+<Term> Input, 1
+	VinMin  : 1.8
+<Term> Output, 1
+	Vout    : 1.8
+	VoutMin : 0.5
+<BPrt> Load, 15, 555, 480, 1.8V GTH_AUX
+	Color   : #FFFFB6C1
+	Width   : 150
+	Height  : 60
+<Term> Input, 1
+	Inom    : 0.5
+	Ipeak   : 1
+<BPrt> Net, 17, 745, 60, 12V
+	Color   : #00FFFFFF
+	Width   : 60
+	Height  : 40
+<Term> Aux, 1
+<BPrt> Converter, 19, 840, 615, LTM4644
+	Color   : #FFFFDAB9
+	Width   : 120
+	Height  : 100
+	Topology: 1
+	ConvType: 2
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 1.2
+	VoutMax : 5.5
+	NomEff  : 83
+<Term> Output, 2
+	Vout    : 1.2
+	VoutMax : 5.5
+	NomEff  : 83
+<Term> Output, 3
+	Vout    : 1.2
+	VoutMax : 5.5
+	NomEff  : 83
+<Term> Output, 4
+	Vout    : 1.2
+	VoutMax : 5.5
+	NomEff  : 83
+<BPrt> Load, 20, 1085, 465, 1.0V GTY_AVCC
+	Color   : #FFFFB6C1
+	Width   : 130
+	Height  : 60
+<Term> Input, 1
+	Ipeak   : 12
+<BPrt> Load, 21, 1085, 635, 1.2V GTY_AVTT
+	Color   : #FFFFB6C1
+	Width   : 130
+	Height  : 60
+<Term> Input, 1
+	Ipeak   : 12
+<BPrt> Converter, 22, 175, 765, LTM4625
+	Color   : #FFFFDAB9
+	Width   : 120
+	Height  : 60
+	Topology: 1
+	ConvType: 2
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 1.2
+	VoutMax : 5.5
+	NomEff  : 85
+<BPrt> LDO, 23, 370, 565, LDO
+	Color   : #FFBDB76B
+	Width   : 120
+	Height  : 60
+<Term> Input, 1
+	VinMin  : 1.8
+<Term> Output, 1
+	Vout    : 1.8
+<BPrt> Load, 24, 555, 765, 1.2V DDR4 VDDQ
+	Color   : #FFFFB6C1
+	Width   : 140
+	Height  : 60
+<Term> Input, 1
+	Inom    : 3
+	Ipeak   : 3
+<BPrt> Load, 25, 555, 840, DDR4 VTT
+	Color   : #FFFFB6C1
+	Width   : 140
+	Height  : 60
+<Term> Input, 1
+	Inom    : 0.5
+	Ipeak   : 1
+<BPrt> Converter, 26, 175, 660, LTM4620A
+	Color   : #FFFFDAB9
+	Width   : 120
+	Height  : 70
+	Topology: 1
+	ConvType: 2
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 3.3
+<Term> Output, 2
+	Vout    : 3.3
+<BPrt> Load, 27, 555, 665, 3.3V System Power
+	Color   : #FFFFB6C1
+	Width   : 150
+	Height  : 60
+<Term> Input, 1
+	Ipeak   : 20
+<BPrt> Load, 54, 555, 565, 1.8V GTY_AUX
+	Color   : #FFFFB6C1
+	Width   : 150
+	Height  : 60
+<Term> Input, 1
+	Inom    : 0.5
+	Ipeak   : 1
+<BPrt> LDO, 182, 370, 840, LDO
+	Color   : #FFBDB76B
+	Width   : 120
+	Height  : 60
+<Term> Input, 1
+	VinMin  : 1
+<Term> Output, 1
+	Vout    : 0.6
+	VoutMin : 0.5
+<BPrt> Power, 187, 720, 820, 12V
+	Color   : #FFADD8E6
+	Width   : 120
+	Height  : 60
+<Term> Output, 1
+<BPrt> Net, 188, 885, 790, 12V
+	Color   : #00FFFFFF
+	Width   : 60
+	Height  : 40
+<Term> Aux, 1
+<BPrt> Net, 191, 75, 60, 12V
+	Color   : #00FFFFFF
+	Width   : 60
+	Height  : 40
+<Term> Aux, 1
+<BPrt> Converter, 10, 840, 440, LTM4644
+	Color   : #FFFFDAB9
+	Width   : 120
+	Height  : 110
+	Topology: 1
+	ConvType: 2
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 1
+	VoutMax : 5.5
+	IoutMax : 4
+	NomEff  : 83
+<Term> Output, 2
+	Vout    : 1
+	VoutMax : 5.5
+	IoutMax : 4
+	NomEff  : 83
+<Term> Output, 3
+	Vout    : 1
+	VoutMax : 5.5
+	NomEff  : 83
+<Term> Output, 4
+	Vout    : 1
+	VoutMax : 5.5
+	IoutMax : 4
+	NomEff  : 83
+<BPrt> Converter, 18, 840, 95, LTM4644
+	Color   : #FFFFDAB9
+	Width   : 120
+	Height  : 100
+	Topology: 1
+	ConvType: 2
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 1
+	VoutMax : 5.5
+	NomEff  : 83
+<Term> Output, 2
+	Vout    : 1
+	VoutMax : 5.5
+	NomEff  : 83
+<Term> Output, 3
+	Vout    : 1
+	VoutMax : 5.5
+	NomEff  : 83
+<Term> Output, 4
+	Vout    : 1
+	VoutMax : 5.5
+	NomEff  : 83
+<Symb> Label, 275, 378, 28, 0,0, 0,0
+	Color   : #FF000000
+	Thicknss: 40
+	Comments: HTG-830
+<Symb> Rectangle, 0, 985, 730, 0,0, 0,0
+	Thicknss: 20
+<Symb> SummaryReport, 0, 0, 0, 0,0, 0,0
+	Color   : #FF000000
+	Thicknss: 20
+<Wire> 46, 45
+	STermPID: 5
+	STermTyp: Output
+	STermNum: 1
+	ETermPID: 6
+	ETermTyp: Input
+	ETermNum: 1
+	Points  : (295,315)(490,315)(490,245)(555,245)
+<Wire> 57, 49
+	STermPID: 14
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 230, 232
+	Points  : (370,510)(460,510)(325,510)
+<Wire> 60, 59
+	STermPID: 14
+	STermTyp: Output
+	STermNum: 1
+	ETermPID: 15
+	ETermTyp: Input
+	ETermNum: 1
+	Points  : (490,510)(555,510)
+<Wire> 62, 61
+	STermPID: 23
+	STermTyp: Output
+	STermNum: 1
+	ETermPID: 54
+	ETermTyp: Input
+	ETermNum: 1
+	Points  : (490,595)(555,595)
+<Wire> 115, 240
+	STermPID: 9
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 242, 244
+	Points  : (840,315)(915,315)(775,315)
+<Wire> 121, 240
+	STermPID: 19
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 195, 242
+	Points  : (840,665)(775,665)(775,495)(915,495)
+<Wire> 131, 34
+	STermPID: 5
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 211, 212
+	Points  : (175,350)(195,350)(105,350)
+<Wire> 148, 47
+	STermPID: 7
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 225, 226
+	Points  : (555,340)(370,340)
+<Wire> 184, 183
+	STermPID: 182
+	STermTyp: Output
+	STermNum: 1
+	ETermPID: 25
+	ETermTyp: Input
+	ETermNum: 1
+	Points  : (490,870)(555,870)
+<Wire> 185, 71
+	STermPID: 182
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 237, 238
+	Points  : (370,870)(320,870)(320,795)
+<Wire> 190, 189
+	STermPID: 187
+	STermTyp: Output
+	STermNum: 1
+	ETermPID: 188
+	ETermTyp: Aux
+	ETermNum: 1
+	Points  : (840,850)(915,850)(915,830)
+<Wire> 192, 34
+	STermPID: 2
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 208, 209
+	Points  : (175,120)(105,120)
+<Wire> 195, 240
+	STermPID: 10
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 121, 242
+	Points  : (840,495)(915,495)
+<Wire> 205, 34
+	STermPID: 26
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 211, 213
+	Points  : (175,695)(195,695)(105,695)
+<Wire> 208, 34
+	SWires  : 192, 209
+	EWires  : 210, 212
+	Points  : (105,120)(105,230)
+<Wire> 209, 34
+	ETermPID: 191
+	ETermTyp: Aux
+	ETermNum: 1
+	SWires  : 208, 192
+	Points  : (105,120)(105,100)
+<Wire> 210, 34
+	ETermPID: 3
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 208, 212
+	Points  : (105,230)(195,230)(175,230)
+<Wire> 211, 34
+	SWires  : 131, 212
+	EWires  : 205, 213
+	Points  : (105,350)(105,695)
+<Wire> 212, 34
+	SWires  : 211, 131
+	EWires  : 208, 210
+	Points  : (105,350)(105,230)
+<Wire> 213, 34
+	ETermPID: 22
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 211, 205
+	Points  : (105,695)(105,795)(175,795)
+<Wire> 216, 215
+	STermPID: 2
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 218, 220
+	Points  : (295,105)(370,105)
+<Wire> 217, 215
+	STermPID: 3
+	STermTyp: Output
+	STermNum: 2
+	EWires  : 223, 224
+	Points  : (295,245)(370,245)(370,215)
+<Wire> 218, 215
+	ETermPID: 4
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 216, 220
+	Points  : (370,105)(555,105)
+<Wire> 219, 215
+	STermPID: 2
+	STermTyp: Output
+	STermNum: 2
+	EWires  : 220, 224
+	Points  : (295,135)(370,135)
+<Wire> 220, 215
+	SWires  : 219, 224
+	EWires  : 216, 218
+	Points  : (370,135)(370,105)
+<Wire> 223, 215
+	STermPID: 3
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 217, 224
+	Points  : (295,215)(370,215)
+<Wire> 224, 215
+	SWires  : 223, 217
+	EWires  : 219, 220
+	Points  : (370,215)(370,135)
+<Wire> 225, 47
+	STermPID: 5
+	STermTyp: Output
+	STermNum: 3
+	EWires  : 148, 226
+	Points  : (295,360)(370,360)(370,340)
+<Wire> 226, 47
+	ETermPID: 5
+	ETermTyp: Output
+	ETermNum: 2
+	SWires  : 225, 148
+	Points  : (370,340)(295,340)
+<Wire> 227, 49
+	STermPID: 5
+	STermTyp: Output
+	STermNum: 4
+	EWires  : 230, 231
+	Points  : (295,385)(325,385)(325,420)
+<Wire> 230, 49
+	SWires  : 227, 231
+	EWires  : 57, 232
+	Points  : (325,420)(325,510)
+<Wire> 231, 49
+	ETermPID: 8
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 230, 227
+	Points  : (325,420)(460,420)(555,420)
+<Wire> 232, 49
+	ETermPID: 23
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 230, 57
+	Points  : (325,510)(325,595)(370,595)
+<Wire> 234, 233
+	STermPID: 26
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 235, 236
+	Points  : (295,680)(370,680)(370,695)
+<Wire> 235, 233
+	STermPID: 27
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 234, 236
+	Points  : (555,695)(370,695)
+<Wire> 236, 233
+	ETermPID: 26
+	ETermTyp: Output
+	ETermNum: 2
+	SWires  : 235, 234
+	Points  : (370,695)(370,710)(295,710)
+<Wire> 237, 71
+	ETermPID: 24
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 185, 238
+	Points  : (320,795)(555,795)
+<Wire> 238, 71
+	ETermPID: 22
+	ETermTyp: Output
+	ETermNum: 1
+	SWires  : 237, 185
+	Points  : (320,795)(295,795)
+<Wire> 152, 239
+	STermPID: 18
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 245, 246, 249
+	Points  : (960,110)(1030,110)(1030,135)
+<Wire> 241, 240
+	STermPID: 17
+	STermTyp: Aux
+	STermNum: 1
+	EWires  : 243, 244
+	Points  : (775,100)(775,145)
+<Wire> 242, 240
+	SWires  : 115, 244
+	EWires  : 195, 121
+	Points  : (775,315)(775,495)(915,495)
+<Wire> 243, 240
+	STermPID: 18
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 241, 244
+	Points  : (840,145)(775,145)
+<Wire> 244, 240
+	SWires  : 243, 241
+	EWires  : 115, 242
+	Points  : (775,145)(775,315)
+<Wire> 245, 239
+	STermPID: 18
+	STermTyp: Output
+	STermNum: 2
+	EWires  : 152, 246, 249
+	Points  : (960,135)(1030,135)
+<Wire> 246, 239
+	SWires  : 245, 152, 249
+	EWires  : 247, 248
+	Points  : (1030,135)(1030,155)
+<Wire> 247, 239
+	STermPID: 18
+	STermTyp: Output
+	STermNum: 3
+	EWires  : 246, 248
+	Points  : (960,155)(1030,155)
+<Wire> 248, 239
+	ETermPID: 18
+	ETermTyp: Output
+	ETermNum: 4
+	SWires  : 247, 246
+	Points  : (1030,155)(1030,180)(960,180)
+<Wire> 249, 239
+	STermPID: 11
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 245, 152, 246
+	Points  : (1085,145)(1030,145)(1030,135)
+<Wire> 252, 251
+	STermPID: 9
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 253, 254, 259
+	Points  : (960,280)(1030,280)(1030,305)
+<Wire> 253, 251
+	STermPID: 9
+	STermTyp: Output
+	STermNum: 2
+	EWires  : 252, 254, 259
+	Points  : (960,305)(1030,305)
+<Wire> 254, 251
+	SWires  : 253, 252, 259
+	EWires  : 257, 258
+	Points  : (1030,305)(1030,325)
+<Wire> 257, 251
+	STermPID: 9
+	STermTyp: Output
+	STermNum: 3
+	EWires  : 254, 258
+	Points  : (960,325)(1030,325)
+<Wire> 258, 251
+	ETermPID: 9
+	ETermTyp: Output
+	ETermNum: 4
+	SWires  : 257, 254
+	Points  : (1030,325)(1030,350)(960,350)
+<Wire> 259, 251
+	STermPID: 12
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 253, 252, 254
+	Points  : (1085,315)(1030,315)(1030,305)
+<Wire> 261, 260
+	STermPID: 10
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 262, 263, 266
+	Points  : (960,460)(1030,460)(1030,485)
+<Wire> 262, 260
+	STermPID: 10
+	STermTyp: Output
+	STermNum: 2
+	EWires  : 261, 263, 266
+	Points  : (960,485)(1030,485)
+<Wire> 263, 260
+	SWires  : 262, 261, 266
+	EWires  : 264, 265
+	Points  : (1030,485)(1030,505)
+<Wire> 264, 260
+	STermPID: 10
+	STermTyp: Output
+	STermNum: 3
+	EWires  : 263, 265
+	Points  : (960,505)(1030,505)
+<Wire> 265, 260
+	ETermPID: 10
+	ETermTyp: Output
+	ETermNum: 4
+	SWires  : 264, 263
+	Points  : (1030,505)(1030,530)(960,530)
+<Wire> 266, 260
+	STermPID: 20
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 262, 261, 263
+	Points  : (1085,495)(1030,495)(1030,485)
+<Wire> 268, 267
+	STermPID: 19
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 269, 270, 273
+	Points  : (960,630)(1030,630)(1030,655)
+<Wire> 269, 267
+	STermPID: 19
+	STermTyp: Output
+	STermNum: 2
+	EWires  : 268, 270, 273
+	Points  : (960,655)(1030,655)
+<Wire> 270, 267
+	SWires  : 269, 268, 273
+	EWires  : 271, 272
+	Points  : (1030,655)(1030,675)
+<Wire> 271, 267
+	STermPID: 19
+	STermTyp: Output
+	STermNum: 3
+	EWires  : 270, 272
+	Points  : (960,675)(1030,675)
+<Wire> 272, 267
+	ETermPID: 19
+	ETermTyp: Output
+	ETermNum: 4
+	SWires  : 271, 270
+	Points  : (1030,675)(1030,700)(960,700)
+<Wire> 273, 267
+	STermPID: 21
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 269, 268, 270
+	Points  : (1085,665)(1030,665)(1030,655)
