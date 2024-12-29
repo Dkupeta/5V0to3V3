@@ -5030,6 +5030,17 @@
 		)
 		(uuid "272b581e-b77f-480c-bfb0-28cdc463c153")
 	)
+	(label "3V3B"
+		(at 251.46 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29d24aa8-8cbc-400f-8820-4ce7b1ead133")
+	)
 	(label "INTVcc1"
 		(at 176.53 78.74 0)
 		(fields_autoplaced yes)
